@@ -28,7 +28,7 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.10",
-    "auto-launch": "^5.0.5",
+    "auto-launch": "^5.0.6",
     "axios": "^0.27.2",
     "base-64": "^1.0.0",
     "crypto": "^1.0.1",
