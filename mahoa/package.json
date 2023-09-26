@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "javascript-obfuscator": "^4.0.2",
+    "javascript-obfuscator": "^4.1.0",
     "js-base64": "^3.7.5"
   }
 }
