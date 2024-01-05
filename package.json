@@ -29,14 +29,14 @@
   "dependencies": {
     "adm-zip": "^0.5.10",
     "auto-launch": "^5.0.5",
-    "axios": "^0.27.2",
+    "axios": "^1.6.4",
     "base-64": "^1.0.0",
     "crypto": "^1.0.1",
     "crypto-js": "^4.1.1",
     "js-base64": "^3.7.3",
     "js-crypto-aes": "^1.0.4",
     "node-hide-console-window": "^2.1.1",
-    "sqlite3": "^5.1.4",
+    "sqlite3": "^5.1.7",
     "win32crypt": "^0.2.1"
   }
 }
